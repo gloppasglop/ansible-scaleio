@@ -10,7 +10,5 @@ scaleio_gateway_virtual_interface: eth1
 scaleio_skip_java: false
 file_glob_name: gateway
 scaleio_role_environment:
-        - key: "MDM_IP"
-          value: "{{ scaleio_mdm_ips }}"
-        - key: "GATEWAY_ADMIN_PASSWORD"
-          value: "{{ scaleio_gateway_admin_password }}"
+  MDM_IP: "{{ scaleio_mdm_ips }}"
+  GATEWAY_ADMIN_PASSWORD: "{{ scaleio_gateway_admin_password }}"

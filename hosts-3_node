@@ -1,35 +1,35 @@
 [mdm]
-node0
-node1
-node2
+node01
+node02
+node03
 
 [tb]
-node3
-node4
+node04
+node05
 
 [sds]
-node2
-node3
-node4
+node03
+node04
+node05
 
 [lia]
-node0
-node1
-node2
-node3
-node4
+node01
+node02
+node03
+node04
+node05
 
 [gateway]
-node2
-node3
+node03
+node04
 
 [gui]
-node0
+node01
 
 [sdc]
-node0
-node1
-node2
-node3
-node4
+node01
+node02
+node03
+node04
+node05
 

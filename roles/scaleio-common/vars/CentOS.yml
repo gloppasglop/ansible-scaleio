@@ -1,3 +1,4 @@
 scaleio_common_packages:
         - numactl
         - libaio
+        - net-tools

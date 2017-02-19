@@ -1,6 +1,4 @@
 file_glob_name: lia
 scaleio_role_environment:
-        - key: "MDM_IP"
-          value: "{{ scaleio_mdm_ips }}"
-        - key: "TOKEN"
-          value: "{{ scaleio_lia_token }}"
+  MDM_IP: "{{ scaleio_mdm_ips }}"
+  TOKEN: "{{ scaleio_lia_token }}"

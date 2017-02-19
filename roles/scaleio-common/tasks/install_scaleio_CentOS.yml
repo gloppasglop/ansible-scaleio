@@ -13,5 +13,8 @@
   when: ansible_distribution == "CentOS"
 
 - name: install package
-  raw: "/var/tmp/package_wrapper.sh rpm -i {{ package_file.files[0].path }}"
+  environment: "{{ scaleio_role_environment }}"
+  yum:
+   name: "{{ package_file.files[0].path }}"
+   satte: latest
   when: ansible_distribution == "CentOS"
