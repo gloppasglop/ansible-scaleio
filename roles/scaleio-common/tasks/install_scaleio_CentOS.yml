@@ -16,5 +16,5 @@
   environment: "{{ scaleio_role_environment }}"
   yum:
    name: "{{ package_file.files[0].path }}"
-   satte: latest
+   state: latest
   when: ansible_distribution == "CentOS"
